@@ -4,8 +4,7 @@ export default function NavBar() {
     var menuOne = false;
 
     return (
-        <section>
-            <div className="h-auto w-screen bg-black text-white">
+            <div className="hidden h-auto w-screen bg-black text-white">
                 <nav
                     className="font-inter mx-auto h-auto w-full max-w-[1600px] lg:relative lg:top-0"
                 >
@@ -90,6 +89,5 @@ export default function NavBar() {
                     </div>
                 </nav>
             </div>
-        </section>
     );
 }
